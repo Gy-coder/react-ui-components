@@ -28,7 +28,7 @@ function App() {
         <Alert title={'this is alert'} description='this is description' onClose={()=>{alert('Alert has been deleted')}}/>
       </div>
       <Icon icon='arrow-down' theme='warning'/>
-      <Menu defaultIndex={0} onSelect={(index)=>alert(index)} mode={ModeType.Horizontal}>
+      <Menu defaultIndex={'0'} onSelect={(index)=>alert(index)} mode={ModeType.Horizontal}>
         <MenuItem>active</MenuItem>
         <MenuItem>zzz</MenuItem>
         <MenuItem>xyz</MenuItem>
