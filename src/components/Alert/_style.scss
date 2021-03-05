@@ -1,0 +1,33 @@
+.alert {
+  padding: $alert-padding-y $alert-padding-x;
+  font-size: $font-size-base;
+  color: $white;
+  background: $primary;
+  border: $btn-border-width solid transparent;
+  border-radius: $border-radius;
+  position: relative;
+  > .closeButton {
+    cursor: pointer;
+    position: absolute;
+    top:0;
+    right:0;
+    padding: $alert-padding-y $alert-padding-x;
+  }
+}
+
+.alert-success {
+  background: $success;
+}
+
+.alert-warning {
+  background: $warning;
+}
+
+.alert-danger {
+  background: $danger;
+}
+
+.description{
+  font-size: $font-size-sm;
+  margin:.3rem 0 0;
+}
